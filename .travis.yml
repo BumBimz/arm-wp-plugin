@@ -42,7 +42,7 @@ before_script:
     - cd -
 
     # set up database
-    - mysql -e 'CREATE DATABASE wpunit;' -uroot -pmysql@dm1n
+    - mysql -e 'CREATE DATABASE wpunit;' -uroot 
 
 script: phpunit
 
